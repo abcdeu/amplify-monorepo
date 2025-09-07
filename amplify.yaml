@@ -11,8 +11,8 @@ applications:
       phases:
         build:
           commands:
-            - npm run build
             - npx ampx generate outputs --branch main --app-id d1raghrlirj9tc
+            - npm run build
       artifacts:
         baseDirectory: dist
         files:
